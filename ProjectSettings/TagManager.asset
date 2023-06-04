@@ -3,15 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Knob
+  - Rope
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Grab
+  - Body
   - Water
   - UI
-  - 
+  - Grab
   - 
   - 
   - 
