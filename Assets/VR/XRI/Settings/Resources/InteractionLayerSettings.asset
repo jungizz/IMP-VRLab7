@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LayerNames:
   - Default
-  - Trashbin
-  - Trash
   - Grab
-  - Teleport
   - Climb
+  - 
+  - 
+  - 
   - 
   - 
   - 
