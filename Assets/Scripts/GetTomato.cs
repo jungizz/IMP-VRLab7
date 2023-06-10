@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class GetTomato : MonoBehaviour
 {
+    public AudioSource sliceSound;
     private GameObject tomato;
     void Start()
     {
         tomato = transform.GetChild(2).gameObject;
     }
 
-    private void OnCollisionEnter(Collision collision)
+    public void dropTomato()
     {
-        if (collision.gameObject.CompareTag("Knife"))
-        {
-            tomato.SetActive(true);
-        }
+        tomato.SetActive(true);
+        sliceSound.Play();
     }
 }

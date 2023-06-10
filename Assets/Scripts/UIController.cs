@@ -8,7 +8,9 @@ public class UIController : MonoBehaviour
     public GameObject howToUI;
     public GameObject TomatoUI;
     public GameObject CabbageUI;
+
     public AudioSource startSound;
+    public AudioSource BackgroundSound;
 
     public void StartGame()
     {
@@ -16,17 +18,20 @@ public class UIController : MonoBehaviour
         TomatoUI.SetActive(true);
         CabbageUI.SetActive(true);
         startSound.Play();
+        BackgroundSound.Play();
     }
 
     public void HowTo()
     {
         mainUI.SetActive(false);
         howToUI.SetActive(true);
+        startSound.Play();
     }
 
     public void Back()
     {
         mainUI.SetActive(true);
         howToUI.SetActive(false);
+        startSound.Play();
     }
 }

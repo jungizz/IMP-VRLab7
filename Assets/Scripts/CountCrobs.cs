@@ -16,6 +16,7 @@ public class CountCrobs : MonoBehaviour
         {
             if(crobCnt < 9)
             {
+                collision.gameObject.tag = "Untagged";
                 crobCnt += 1;
                 crobText.text = crobCnt.ToString();
             }

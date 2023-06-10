@@ -9,6 +9,7 @@ public class GameSuccess : MonoBehaviour
     public Text CabbageCnt;
     public GameObject SuccessUI;
     public AudioSource SuccessSound;
+    public AudioSource BackgroundSound; 
 
     private bool isSuccess = true;
 
@@ -18,6 +19,7 @@ public class GameSuccess : MonoBehaviour
         {
             SuccessUI.SetActive(true);
             SuccessSound.Play();
+            BackgroundSound.Stop();
             isSuccess = false;
         }
     }
