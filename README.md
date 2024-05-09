@@ -7,6 +7,6 @@
 >   - XR Socket Interactor
 >   - XR Poke Interactor 
 
-### 🐻 Harvest Heroes
+### 🍅 Harvest Heroes
 - a game of growing crops using tools
 [TraierVideo](https://drive.google.com/file/d/1I720oF20f4joIaEsMHxv00WDIwGt7Ndd/view?t=14)
